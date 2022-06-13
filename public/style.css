@@ -1,0 +1,17 @@
+q*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+body{
+    background-image: url('../asset/Green-Nature.jpg');
+    background-size: cover;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
