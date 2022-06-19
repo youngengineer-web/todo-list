@@ -5,13 +5,68 @@ q*{
     direction: rtl;
 }
 
+@media screen and (max-width: 100px) {
+    body {
+      background-color: red;
+    }
+  }
+
 body{
     background-image: url('../asset/Green-Nature.jpg');
     background-size: cover;
+    background-color: #261f3a;
 }
 
 .main{
     display: flex;
     justify-content: center;
     margin: 20px auto;
+}
+
+.topForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topForm h1{
+    display: flex;
+    color: #fff;
+}
+
+.topForm form{
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.topForm input{
+    display: flex;
+    font-size: 20px;
+    background-color: aliceblue;
+    transition: color 500ms, outline 500ms, border-radius 500ms;
+    width: 75%;
+}
+
+.topForm input:focus{
+    display: flex;
+    background-color: #402292;
+    color: aqua;
+    outline: 1px solid red;
+    border-radius: 5px;
+}
+
+.topForm button{
+    font-size: 20px;
+    transition: border 500ms, border-radius 500ms;
+    width: 20%;
+    max-width: 150px;
+}
+
+.topForm button:hover{
+    background-color: #402292;
+    color: #fff;
+    border: 1px solid red;
+    border-radius: 5px;
 }

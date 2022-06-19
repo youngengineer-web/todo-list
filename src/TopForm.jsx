@@ -13,7 +13,7 @@ const TopForm = (props) => {
             <h1>{`چک لیست ${userName}`}</h1>
 
             <form action="">
-                <input type="text" name="taskItmeInput"/>
+                <input type="text" name="taskItmeInput" placeholder="برنامه ات رو بنویس"/>
                 <button>ثبت</button>
             </form>
         </div>
